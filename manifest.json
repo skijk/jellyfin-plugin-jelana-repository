@@ -8,6 +8,17 @@
     "category": "General",
     "versions": [
       {
+        "version": "0.1.14.0",
+        "changelog": "Remove obsolete inline fallback CSS that painted every activity-chart column blue and hid the correctly scaled bars underneath. The dashboard now has one authoritative, versioned stylesheet.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.14.0/Jelana_0.1.14.0_jf10.11.11.zip",
+        "checksum": "5218D6015C8494210B25486FD68CF81F",
+        "timestamp": "2026-07-29T14:56:48Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.1.13.0",
         "changelog": "Fix the Server activity chart so each bar once again reflects its actual watch time instead of every bar stretching to full height. Make the chart resilient to Jellyfin and fallback CSS interactions, and finish translating its tooltip to English.",
         "targetAbi": "10.11.0.0",
