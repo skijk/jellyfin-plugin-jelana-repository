@@ -8,6 +8,17 @@
     "category": "General",
     "versions": [
       {
+        "version": "0.1.7.0",
+        "changelog": "Add a same-server user dashboard at /Jelana/User for non-admin Jellyfin users. Add private per-user cached viewing statistics for 30 days, one year and all time. Move activity to row two, place Media Profile and Playback last, and remove Recently Added from the analytics page.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.7.0/Jelana_0.1.7.0_jf10.11.11.zip",
+        "checksum": "493D2CEE114F76FF1BED98EB847360E8",
+        "timestamp": "2026-07-29T13:58:30Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.1.6.0",
         "changelog": "Move the 30-day activity chart to its own full-width row and add a responsive Swedish date axis beneath the bars. Combine clients and playback methods in a tabbed Playback card. Make posters and titles in the most-played rankings open their Jellyfin detail pages. Exact graph values remain available on hover, keyboard focus and mobile tap.",
         "targetAbi": "10.11.0.0",
