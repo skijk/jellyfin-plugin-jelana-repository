@@ -9,6 +9,17 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jelana-repository/main/logo.png",
     "versions": [
       {
+        "version": "0.1.16.0",
+        "changelog": "Move Hot right now directly below My analytics so current viewing trends appear before library inventory and ranking details.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.16.0/Jelana_0.1.16.0_jf10.11.11.zip",
+        "checksum": "B873B00ED8598FE2D5B536EDE4C33DC7",
+        "timestamp": "2026-07-29T20:05:55Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.1.15.0",
         "changelog": "Align the two overview metric cards symmetrically with tabs below their titles. Move the dashboard header actions to the left, load server branding with a reliable Jelana fallback, and package/publish the Jelana logo for Jellyfin's installed-plugin and catalog views.",
         "targetAbi": "10.11.0.0",
