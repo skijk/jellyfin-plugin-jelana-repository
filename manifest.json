@@ -8,6 +8,17 @@
     "category": "General",
     "versions": [
       {
+        "version": "0.1.5.0",
+        "changelog": "Replace crowded library/media layout with separate Library and tabbed Media Profile panels. Add 7/30-day tabs for new items and mobile-first 44px touch targets, single-column cards, readable typography and tap-accessible chart details.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.5.0/Jelana_0.1.5.0_jf10.11.11.zip",
+        "checksum": "F41FC71EDD5386076EFDAD82064734F7",
+        "timestamp": "2026-07-29T13:22:29Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.1.4.0",
         "changelog": "Add activity-chart hover values, tiny posters to movie and series rankings, consolidate detailed Playback Reporting methods into Direct play, Direct stream and Transcodes, and move video, resolution and audio profiles beside library information.",
         "targetAbi": "10.11.0.0",
