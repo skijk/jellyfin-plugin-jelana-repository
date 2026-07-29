@@ -8,6 +8,17 @@
     "category": "General",
     "versions": [
       {
+        "version": "0.1.8.0",
+        "changelog": "Fix the personal statistics tabs so only the selected period is visible instead of rendering 30 days, one year and all time as three stacked rows.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.8.0/Jelana_0.1.8.0_jf10.11.11.zip",
+        "checksum": "A917746DC1A3FDDDC1162B743988CFFC",
+        "timestamp": "2026-07-29T14:06:19Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.1.7.0",
         "changelog": "Add a same-server user dashboard at /Jelana/User for non-admin Jellyfin users. Add private per-user cached viewing statistics for 30 days, one year and all time. Move activity to row two, place Media Profile and Playback last, and remove Recently Added from the analytics page.",
         "targetAbi": "10.11.0.0",
