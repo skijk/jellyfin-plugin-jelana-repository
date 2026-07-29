@@ -9,6 +9,28 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jelana-repository/main/logo-card.png",
     "versions": [
       {
+        "version": "0.1.19.0",
+        "changelog": "Add 7 days, 30 days and All time tabs to the Most played movies, Most played series and Most active users cards. All periods are computed only during the safe hourly cache refresh.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.19.0/Jelana_0.1.19.0_jf10.11.11.zip",
+        "checksum": "0D933D0F94891FFD3F9F6885DA3026AA",
+        "timestamp": "2026-07-29T20:35:17Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
+        "version": "0.1.18.0",
+        "changelog": "Replace ambiguous Hot right now numbers with explicit labels such as '8 plays · ↑ 6 vs last week · 3 viewers', including singular forms, decreases and unchanged results. Improve wrapping and readability on mobile.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.18.0/Jelana_0.1.18.0_jf10.11.11.zip",
+        "checksum": "083C93B441BBF44729750E110BA14FC7",
+        "timestamp": "2026-07-29T20:31:58Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.1.17.0",
         "changelog": "Resize and center the Jelana plugin artwork on a dark 16:9 canvas with safe spacing, matching Jellyfin's plugin-card presentation without changing the in-dashboard logo.",
         "targetAbi": "10.11.0.0",
