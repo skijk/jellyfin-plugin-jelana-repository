@@ -8,6 +8,17 @@
     "category": "General",
     "versions": [
       {
+        "version": "0.1.11.0",
+        "changelog": "Make every value in My Analytics follow the selected 30-day, one-year or all-time period, including viewing habits, longest session and movie/TV split. Add an explicit color legend and Personal or Server-wide scope badges to every dashboard card.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.11.0/Jelana_0.1.11.0_jf10.11.11.zip",
+        "checksum": "066DCBFE97A9EDB04D0C936AE34947AE",
+        "timestamp": "2026-07-29T14:35:51Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.1.10.0",
         "changelog": "Use English throughout the entire UI, menu integration, cached labels and source documentation so Jelana can be used internationally. Preserve 24-hour time formatting.",
         "targetAbi": "10.11.0.0",
