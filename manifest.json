@@ -9,6 +9,17 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jelana-repository/main/logo-card.png",
     "versions": [
       {
+        "version": "0.1.20.0",
+        "changelog": "Expand the hourly cached trending and recently added sources from 8 to 16 titles so JellySpotlight can display the configured number of items.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.20.0/Jelana_0.1.20.0_jf10.11.11.zip",
+        "checksum": "B3429473AE6306624E0A2500B3CE2C5A",
+        "timestamp": "2026-07-29T23:55:03Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.1.19.0",
         "changelog": "Add 7 days, 30 days and All time tabs to the Most played movies, Most played series and Most active users cards. All periods are computed only during the safe hourly cache refresh.",
         "targetAbi": "10.11.0.0",
