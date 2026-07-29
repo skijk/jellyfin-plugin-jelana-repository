@@ -8,6 +8,17 @@
     "category": "General",
     "versions": [
       {
+        "version": "0.1.2.0",
+        "changelog": "Embed the complete responsive dashboard styling directly in the Jellyfin plugin page so cards, grids, charts, rankings, and recent posters render correctly regardless of base URL or stylesheet routing.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.2.0/Jelana_0.1.2.0_jf10.11.11.zip",
+        "checksum": "B79307D1ADC9B29A1B43260497770F3A",
+        "timestamp": "2026-07-29T12:57:15Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.1.1.0",
         "changelog": "Use Playback Reporting exactly as the standalone Jelana dashboard does. Adds hourly read-only analytics, the 30-minute session rule, 7/30-day rankings, library statistics, media profiles, activity, atomic snapshots, and no live queries from the UI.",
         "targetAbi": "10.11.0.0",
