@@ -1,0 +1,20 @@
+[
+  {
+    "guid": "e39f03aa-67c1-49f3-941e-491ce0ac47e5",
+    "name": "Jelana",
+    "overview": "Fast, cached playback analytics inside Jellyfin.",
+    "description": "Standalone Jellyfin analytics with its own playback collection and an hourly, atomically replaced snapshot. The UI never performs live analytics queries.",
+    "owner": "skijk",
+    "category": "General",
+    "versions": [
+      {
+        "version": "0.1.0.0",
+        "changelog": "Initial development release: standalone playback collection, hourly atomic cache, authenticated snapshot API, and integrated statistics page.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.0.0/Jelana_0.1.0.0_jf10.11.11.zip",
+        "checksum": "034B90F4B99858F01384B6FBE7CE9BBC",
+        "timestamp": "2026-07-29T12:26:56Z"
+      }
+    ]
+  }
+]
