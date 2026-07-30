@@ -2,12 +2,23 @@
   {
     "guid": "e39f03aa-67c1-49f3-941e-491ce0ac47e5",
     "name": "Jelana",
-    "overview": "Fast, cached playback analytics inside Jellyfin.",
-    "description": "Standalone Jellyfin analytics with its own playback collection and an hourly, atomically replaced snapshot. The UI never performs live analytics queries.",
+    "overview": "Cached Jellyfin analytics. Requires Playback Reporting.",
+    "description": "Playback Reporting is read only during scheduled cache refreshes. JS Injector is optional for regular-user menu access, and JellySpotlight can optionally consume the cache.",
     "owner": "skijk",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jelana-repository/main/logo-card.png",
     "versions": [
+      {
+        "version": "0.1.22.0",
+        "changelog": "Publish clear dependency documentation in the plugin, catalog and repository. Playback Reporting is required; JS Injector menu access and JellySpotlight consumption are optional.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.22.0/Jelana_0.1.22.0_jf10.11.11.zip",
+        "checksum": "507D55D7DB093C037238B749FDB13618",
+        "timestamp": "2026-07-30T20:40:26Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
       {
         "version": "0.1.21.0",
         "changelog": "Make unique viewers the primary Trending ranking. Require at least two viewers, cap series binge activity per viewer and day, and use active days plus week-over-week growth only as tie-breakers. Most played rankings remain unchanged.",
