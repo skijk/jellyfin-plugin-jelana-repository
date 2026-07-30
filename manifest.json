@@ -9,6 +9,17 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jelana-repository/main/logo-card.png",
     "versions": [
       {
+        "version": "0.1.21.0",
+        "changelog": "Make unique viewers the primary Trending ranking. Require at least two viewers, cap series binge activity per viewer and day, and use active days plus week-over-week growth only as tie-breakers. Most played rankings remain unchanged.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.21.0/Jelana_0.1.21.0_jf10.11.11.zip",
+        "checksum": "297D0DA92F932F3D3ED26142D29F9466",
+        "timestamp": "2026-07-30T14:21:00Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.1.20.0",
         "changelog": "Expand the hourly cached trending and recently added sources from 8 to 16 titles so JellySpotlight can display the configured number of items.",
         "targetAbi": "10.11.0.0",
