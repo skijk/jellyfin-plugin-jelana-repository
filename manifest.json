@@ -9,6 +9,17 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jelana-repository/main/logo-card.png",
     "versions": [
       {
+        "version": "0.1.23.0",
+        "changelog": "Fill sparse Trending shelves with current single-viewer activity after titles watched by multiple users. Unique viewers remain the primary ranking, and series binge caps remain unchanged.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.23.0/Jelana_0.1.23.0_jf10.11.11.zip",
+        "checksum": "0DE264B1440EC93A5E7CBF1F8E3524A7",
+        "timestamp": "2026-07-31T16:12:15Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.1.22.0",
         "changelog": "Publish clear dependency documentation in the plugin, catalog and repository. Playback Reporting is required; JS Injector menu access and JellySpotlight consumption are optional.",
         "targetAbi": "10.11.0.0",
