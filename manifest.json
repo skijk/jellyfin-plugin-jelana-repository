@@ -9,6 +9,17 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jelana-repository/main/logo-card.png",
     "versions": [
       {
+        "version": "0.1.24.0",
+        "changelog": "Move library totals and New in the library into a compact responsive summary strip at the top of Analytics. Limit the Analytics Hot right now list to eight titles while keeping the larger cached feed available to JellySpotlight.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.1.24.0/Jelana_0.1.24.0_jf10.11.11.zip",
+        "checksum": "4C65C1771C5D57B4CF057EE8C9F28368",
+        "timestamp": "2026-08-01T20:11:39Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.1.23.0",
         "changelog": "Fill sparse Trending shelves with current single-viewer activity after titles watched by multiple users. Unique viewers remain the primary ranking, and series binge caps remain unchanged.",
         "targetAbi": "10.11.0.0",
