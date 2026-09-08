@@ -10,7 +10,7 @@
     "versions": [
       {
         "version": "0.2.0.0",
-        "changelog": "Rebuild Jelana for Jellyfin 12.0 final and .NET 10 so Analytics and JellySpotlight statistics continue working after the server upgrade.",
+        "changelog": "Jellyfin 12 only: rebuild Jelana for Jellyfin 12.0 final and .NET 10. Jellyfin 10.11 servers must use the retained 0.1.x releases.",
         "targetAbi": "12.0.0.0",
         "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.2.0.0/Jelana_0.2.0.0_jf12.0.0.zip",
         "checksum": "64F5B6C6F98B713B17435FB1A97F194B",
