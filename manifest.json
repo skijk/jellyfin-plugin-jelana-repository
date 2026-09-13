@@ -9,6 +9,17 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jelana-repository/main/logo-card.png",
     "versions": [
       {
+        "version": "0.2.4.0",
+        "changelog": "Jellyfin 12 only: authenticate standalone Analytics API requests with Jellyfin 12's current MediaBrowser authorization headers instead of the removed legacy X-Emby-Token header.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.2.4.0/Jelana_0.2.4.0_jf12.0.0.zip",
+        "checksum": "021D1B718F0640B640203368A0A7BCD7",
+        "timestamp": "2026-09-13T17:50:14Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.2.3.0",
         "changelog": "Jellyfin 12 only: make Analytics sign-in handoff deterministic. The current Jellyfin token is passed in a URL fragment, immediately removed from the address bar, and retained only in tab-scoped session storage.",
         "targetAbi": "12.0.0.0",
