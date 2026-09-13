@@ -9,6 +9,17 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jelana-repository/main/logo-card.png",
     "versions": [
       {
+        "version": "0.2.2.0",
+        "changelog": "Jellyfin 12 only: reuse the current signed-in Jellyfin session when Analytics is opened from the user menu. The access token is handed over through tab-scoped session storage and is never placed in the URL.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.2.2.0/Jelana_0.2.2.0_jf12.0.0.zip",
+        "checksum": "A5806156456E3EA1573A9A7B91E6573C",
+        "timestamp": "2026-09-13T17:32:15Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.2.1.0",
         "changelog": "Jellyfin 12 only: add Analytics to the new user menu below Jellyfin Enhanced, with a Dashboard fallback and duplicate protection. Document the exact 0.1.25.0 download for Jellyfin 10.11 users.",
         "targetAbi": "12.0.0.0",
