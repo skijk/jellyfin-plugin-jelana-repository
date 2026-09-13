@@ -2,12 +2,23 @@
   {
     "guid": "e39f03aa-67c1-49f3-941e-491ce0ac47e5",
     "name": "Jelana",
-    "overview": "Cached Jellyfin analytics. Requires Playback Reporting.",
-    "description": "Playback Reporting is read only during scheduled cache refreshes. JS Injector is optional for regular-user menu access, and JellySpotlight can optionally consume the cache.",
+    "overview": "Cached Jellyfin analytics. Requires Jellyfin 12 and Playback Reporting.",
+    "description": "Current 0.2.x releases require Jellyfin 12; Jellyfin 10.11 users must install the retained 0.1.25.0 release. Playback Reporting is read only during scheduled cache refreshes. JS Injector is optional for regular-user menu access, and JellySpotlight can optionally consume the cache.",
     "owner": "skijk",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jelana-repository/main/logo-card.png",
     "versions": [
+      {
+        "version": "0.2.1.0",
+        "changelog": "Jellyfin 12 only: add Analytics to the new user menu below Jellyfin Enhanced, with a Dashboard fallback and duplicate protection. Document the exact 0.1.25.0 download for Jellyfin 10.11 users.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.2.1.0/Jelana_0.2.1.0_jf12.0.0.zip",
+        "checksum": "59D0A2B8318A696687435C04060DA03D",
+        "timestamp": "2026-09-13T17:22:44Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
       {
         "version": "0.2.0.0",
         "changelog": "Jellyfin 12 only: rebuild Jelana for Jellyfin 12.0 final and .NET 10. Jellyfin 10.11 servers must use the retained 0.1.x releases.",
