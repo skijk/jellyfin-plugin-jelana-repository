@@ -9,6 +9,17 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jelana-repository/main/logo-card.png",
     "versions": [
       {
+        "version": "0.2.6.0",
+        "changelog": "Jellyfin 12 only: preserve Trending statistics when media is replaced. Playback records for a removed item are remapped only when exactly one current movie or series has the same type and normalized title, then viewers, active days and plays are merged without double-counting.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jelana-repository/releases/download/0.2.6.0/Jelana_0.2.6.0_jf12.0.0.zip",
+        "checksum": "9441637B3CD98D559B4E5B6095C19D19",
+        "timestamp": "2026-10-07T21:10:07Z",
+        "dependencies": [
+          "5c534381-91a3-43cb-907a-35aa02eb9d2c"
+        ]
+      },
+      {
         "version": "0.2.5.0",
         "changelog": "Jellyfin 12 only: open Analytics inside Jellyfin's authenticated web shell so the normal navigation and user menu remain visible. Fix embedded page initialization so the cached analytics snapshot loads immediately.",
         "targetAbi": "12.0.0.0",
